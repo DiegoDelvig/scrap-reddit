@@ -8,4 +8,4 @@ def add(element, dir):
 
 def connect():
 	cred = credentials.Certificate("credentials.json")
-	firebase_admin.initialize_app(cred, {'databaseURL': "https://femboytector-default-rtdb.europe-west1.firebasedatabase.app"})
+	firebase_admin.initialize_app(cred, {'databaseURL': DATABASEURL})
